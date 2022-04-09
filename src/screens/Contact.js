@@ -37,7 +37,7 @@ const Contact = ({ navigation }) => {
         <Text style={styles.labels}> Enter your name </Text>
         <TextInput
           style={styles.inputStyle}
-          placeholder={"vinod thapa"}
+          placeholder={"Parikshit Supekar"}
           value={name}
           onChangeText={(userdata) => setName(userdata)}
         />
@@ -47,7 +47,7 @@ const Contact = ({ navigation }) => {
         <Text style={styles.labels}> Enter your Email </Text>
         <TextInput
           style={styles.inputStyle}
-          placeholder={"demo@thapa.com"}
+          placeholder={"demo@gmail.com"}
           value={email}
           onChangeText={(email) => setEmail(email)}
         />
@@ -57,14 +57,14 @@ const Contact = ({ navigation }) => {
         <Text style={styles.labels}> Enter your mobile </Text>
         <TextInput
           style={styles.inputStyle}
-          placeholder={"vinod thapa"}
+          placeholder={"Parikshit Supekar"}
           value={phone}
           onChangeText={(phone) => setPhone(phone)}
         />
       </View>
 
       <View style={styles.inputContainer}>
-        <Text style={styles.labels}> How can we help you? </Text>
+        <Text style={styles.labels}> How can i help you? </Text>
         <TextInput
           style={[styles.inputStyle, styles.multilineStyle]}
           placeholder={"Tell us about your self"}

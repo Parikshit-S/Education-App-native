@@ -38,7 +38,7 @@ const About = () => {
         <TouchableOpacity
           style={styles.buttonStyle}
           onPress={() =>
-            Linking.openURL("https://www.instagram.com/thapatechnical/")
+            Linking.openURL("#")
           }>
           <Image
             style={styles.iconStyle}
@@ -52,7 +52,7 @@ const About = () => {
           style={styles.buttonStyle}
           onPress={() =>
             Linking.openURL(
-              "https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+              "#"
             )
           }>
           <Image
@@ -65,7 +65,7 @@ const About = () => {
 
         <TouchableOpacity
           style={styles.buttonStyle}
-          onPress={() => Linking.openURL("https://discord.gg/AN8ThRBXtY")}>
+          onPress={() => Linking.openURL("#")}>
           <Image
             style={styles.iconStyle}
             source={{
